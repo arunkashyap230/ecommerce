@@ -1,4 +1,4 @@
-const Bill = require("../models/Bill");
+const Bill = require("./models/Bill");
 const sendWhatsAppMessage = require("../utils/sendWhatsApp");
 
 const handleCheckout = async (req, res) => {
