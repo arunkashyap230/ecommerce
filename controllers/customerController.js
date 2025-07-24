@@ -1,4 +1,4 @@
-const Customer = require("../models/Customer");
+const Customer = require("./models/Customer");
 const bcrypt = require("bcryptjs");
 
 // @desc    Register a new customer
